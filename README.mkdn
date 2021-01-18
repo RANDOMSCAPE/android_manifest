@@ -1,4 +1,4 @@
-Havoc-OS
+Havoc-OS MINKAN
 ===========
 
 
@@ -39,14 +39,14 @@ To initialize your local repository, use this command:
 ------------------------------------------------------
 
 ```bash
-   repo init -u https://github.com/Havoc-OS/android_manifest.git -b ten
+   repo init -u https://github.com/RANDOMSCAPE/android_manifest.git -b ten
 ```
   
 To Sync the source:
 ----------------
 
 ```bash
-  repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+   repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
 
@@ -58,7 +58,7 @@ Initialize the environment with the envsetup.sh script. Note that replacing "sou
 
 ```bash
    . build/envsetup.sh
-    brunch
+   brunch
 ```
 
 Enter the number of the build you want to start and press enter
